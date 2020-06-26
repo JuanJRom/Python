@@ -1,5 +1,4 @@
 from mongoengine import *
-from pymongo import MongoClient
 
 connect('padts')
 
