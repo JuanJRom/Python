@@ -20,6 +20,7 @@ person1 = {
 
 #people.insert_one(person)
 #people.insert_one(person1)
-
-#bucle = people.find_one_and_delete({'Name': 'Blanca'})
+for i in people.find():
+    print(i)
+#people.find_one_and_delete({'name': 'Juan'})
 
