@@ -1,0 +1,9 @@
+git clone   clona un repositorio
+git status  mustra si se agrego un archivo y no tiene seguimiento
+git add nombreArchivo.txt   argraga el archivo a la rama
+git diff    mustra si hay diferencias o actualizaciones en los archivos
+git add .   si se modifico algo en un archivo lo actuliza
+git commit -m "Comentario" lo agrega a la rama 
+git push        lo sincroniza en github   
+git pull       para sincronizar los repositorios
+

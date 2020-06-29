@@ -1,0 +1,14 @@
+Se tiene que hacer esto la principio para iniciar mongodb
+
+sudo service mongod start
+sudo service mongod status
+mongo --quiet
+
+Una vez dentro de mongo estos son los comando basicos.
+show dbs     Muestra las bases de datos 
+use [nombre de la base]     para entrar alguna base de datos 
+db.[coleccion].insert(   [documento en formato JSON]  )         para insertar algo 
+show collections;                                               mustra las colecciones una vez dentro de la db
+db.[coleccion].find();                                          muesra el contenido de la base de datos 
+db.[coleccion].find().pretty();                                 muesra el contenido de la base de datos pero mas bonito     
+
