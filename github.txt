@@ -1,12 +1,15 @@
-git clone   clona un repositorio
-git status  muestra si se agrego un archivo y no tiene seguimiento
-git add nombreArchivo.txt   argraga el archivo a la rama
-git diff    mustra si hay diferencias o actualizaciones en los archivos
-git add .   si se modifico algo en un archivo lo actuliza
-git commit -m "Comentario" lo agrega a la rama 
-git push        lo sincroniza en github   
-git pull       para sincronizar los repositorios
+git clone                    //clone a repository
+git status                   //shows if a file was added and has no tracking
+git add nombreArchivo.txt    //add the file to the branch
+git diff                     //shows if there are differences or updates in the files
+git add .                    //if something is changed in a file it updates it
+git commit -m "Comentario"   //adds it to the branch
+git push                     //sync it on github
+git pull                     //to sync repositories on github and desktop
 
+This is to start a new repository from a project already made on an OS
+git init                     //This command add a git project into your desktop
+git remote add origin        //To this command add the repository link on github
 
-pyside2-uic "nombre.ui" > "monbre.py"  estp es para la interfaces graficas 
+pyside2-uic "nombre.ui" > "monbre.py"  //this is for graphical interfaces with python
 
